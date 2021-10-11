@@ -1,9 +1,33 @@
-.img-row {
-    position: relative;
-    flex-wrap: wrap;
+.img-row, img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 7px;
+   
 }
 
-body{
+body {
     padding: 5px;
-    background-color: black;
+    background-color: beige;
+    font-family: cursive;
+    background-image: url(./images/watercolor-background.png);
+}
+
+.row{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    text-align: start;
+    background-color: white;
+   
+}
+
+header{
+    text-align: center;
+    line-height: 15px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
