@@ -1,0 +1,9 @@
+.img-row {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+body{
+    padding: 5px;
+    background-color: black;
+}
